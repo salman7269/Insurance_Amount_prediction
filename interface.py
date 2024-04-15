@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify, render_template
 import config
-from Project.utils import Medical_Insurance
+from utils import Medical_Insurance
 import numpy as np
 
 app=Flask(__name__)
